@@ -1,0 +1,68 @@
+{
+    "business_name":"Rakel's bakery",
+    "business_type":"bakery",
+    "business_details":{
+        "street":"katani road",
+        "link":"",
+        "contact":"0700000000",
+        "hours":{
+            "open":"6.00",
+            "close":"22.00"
+        },
+        "coords":{
+            "lat": "-1.3683721162568117", 
+            "lng":"36.94006386984342"
+        }
+    },
+    "seo":{
+        "description":"Artisanal breads, flaky croissants, and custom cakes crafted along Katani Road. Order via WhatsApp",
+        "keywords":"bakery in kilimani, custom cakes nairobi, fresh croissants katani road, pastries nairobi"
+    },
+    "hero_details": {
+        "slogan":"Freshly Baked Every Single Morning",
+        "slogan_2":"Artisanal breads, flaky croissants, and custom cakes crafted along Katani Road."
+    },
+    "ui":{
+        "primaryColor": "bg-[#ffffe4]",
+        "secondaryColor":"bg-[#DD1C1D]",
+        "highlight":"border-[#FBCF10]",
+        "text_color":"text-[#1A1A24]",
+        "light_text_color":"text-[#f5f5f5]",
+        "hoverHighlight":"border-[#DD1C1D]"
+
+    },
+    "cta_details":{
+        "cta_text":"Order Now",
+        "cta_text_2":"Order via whatsApp"
+    },
+    "text":{
+        "about_text":"Welcome to Rakels Bakery, your neighborhood bakery conveniently located along Katani Road. We are passionate about creating fresh, delicious baked goods made with quality ingredients and care. From everyday bread and pastries to custom cakes for life's special moments, we strive to bring warmth, flavor, and smiles to every customer. Whether you're stopping by for a quick treat or celebrating a special occasion, Rakels Bakery is here to make every bite memorable."
+    },
+    "image_links":{
+        "hero_img":"./assets/hero.jpg",
+        "menu_img":"./assets/menu.png"
+    },
+    "socials":[
+        {
+            "id":"1",
+            "icLabel":"FaInstagram",
+            "name":"Instagram",
+            "link":"https://www.instagram.com/rakels_bakery/",
+            "theme":"text-[#C628F6]"
+        },
+        {
+            "id":"2",
+            "icLabel":"SiGooglemaps",
+            "name":"Google maps",
+            "link": "https://www.google.com/maps/place/RAKEL'S+BAKERY/@-1.3686996,36.9399546,781m/data=!3m2!1e3!4b1!4m6!3m5!1s0x182f0d26e3454ef1:0xd55e9391f36d6530!8m2!3d-1.3686996!4d36.9399546!16s%2Fg%2F11s65_6ql2?hl=en-KE&entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D",
+            "theme":"text-[#168BE0]"
+        },
+        {
+            "id":"3",
+            "icLabel":"FaWhatsapp",
+            "name":"WhatsApp",
+            "link": "https://wa.me/...",
+            "theme":"text-[#168BE0]"
+        }
+    ]
+}
