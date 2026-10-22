@@ -1,68 +1,145 @@
 {
-    "business_name":"Rakel's bakery",
-    "business_type":"bakery",
-    "business_details":{
-        "street":"katani road",
-        "link":"",
-        "contact":"0700000000",
-        "hours":{
-            "open":"6.00",
-            "close":"22.00"
-        },
-        "coords":{
-            "lat": "-1.3683721162568117", 
-            "lng":"36.94006386984342"
-        }
+  "business_name": "Starlight restaurant",
+  "business_type": "restaurant",
+  "business_details": {
+    "street": "katani road",
+    "neighborhood": "Syokimau / Katani",
+    "city": "Nairobi",
+    "state_region": "Machakos / Nairobi",
+    "postal_code": "00500",
+    "country": "KE",
+    "country_name": "Kenya",
+    "link": "",
+    "contact": "0700000000",
+    "formatted_phone": "+254700000000",
+    "email": "info@rakelsbakery.co.ke",
+    "price_range": "$$",
+    "currencies_accepted": "KES",
+    "payment_accepted": "Cash, M-Pesa, Credit Card",
+    "hours": {
+      "open": "9.00",
+      "close": "1.00",
+      "days_open": "Mo-Su",
+      "opening_hours_schema": "Mo-Su 06:00-22:00"
     },
-    "seo":{
-        "description":"Artisanal breads, flaky croissants, and custom cakes crafted along Katani Road. Order via WhatsApp",
-        "keywords":"bakery in kilimani, custom cakes nairobi, fresh croissants katani road, pastries nairobi"
+    "coords": {
+      "lat": "-1.3683721162568117",
+      "lng": "36.94006386984342"
     },
-    "hero_details": {
-        "slogan":"Freshly Baked Every Single Morning",
-        "slogan_2":"Artisanal breads, flaky croissants, and custom cakes crafted along Katani Road."
-    },
-    "ui":{
-        "primaryColor": "bg-[#ffffe4]",
-        "secondaryColor":"bg-[#DD1C1D]",
-        "highlight":"border-[#FBCF10]",
-        "text_color":"text-[#1A1A24]",
-        "light_text_color":"text-[#f5f5f5]",
-        "hoverHighlight":"border-[#DD1C1D]"
+    "google_place_id": "ChIJsU5F4yYNLxgRMGVt85GTXdU",
+    "google_cid": "0xd55e9391f36d6530"
+  },
+  "seo": {
+    "title": "Rakel's Bakery | Fresh Artisanal Breads & Custom Cakes on Katani Road",
+    "description": "Artisanal breads, flaky croissants, and custom cakes crafted along Katani Road. Order fresh pastries & birthday cakes online via WhatsApp.",
+    "keywords": "bakery along katani road, fresh croissants katani road, custom cakes syokimau, bakery in syokimau, custom cakes nairobi, pastries katani road, birthday cakes syokimau, bakery in kilimani, pastries nairobi",
+    "canonical_url": "https://www.rakelsbakery.co.ke/",
+    "language": "en-KE",
+    "robots": "index, follow"
+  },
+  "geo_meta": {
+    "geo_region": "KE-30",
+    "geo_placename": "Katani Road, Syokimau, Kenya",
+    "geo_position": "-1.368372;36.940064",
+    "icbm": "-1.368372, 36.940064"
+  },
+  "social_meta": {
+    "og_title": "Rakel's Bakery - Freshly Baked Goods on Katani Road",
+    "og_description": "Order artisanal breads, flaky croissants, and custom cakes along Katani Road via WhatsApp.",
+    "og_image": "./assets/og-image.jpg",
+    "og_type": "business.business",
+    "og_site_name": "Rakel's Bakery",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_details": {
+    "slogan": "Exceptional Dining & Crafted Flavors Under the Stars",
+    "slogan_2": "Experience a culinary journey like no other. From fresh, locally sourced ingredients to exquisite dishes prepared by master chefs, every meal is an unforgettable moment."
+  },
+  "ui": {
+    
+    "primaryColor": "bg-[#FFC20E]",
+    "secondaryColor": "bg-[#2f1a5e]",
+    "highlight": "border-[#2f1a5e]",
+    "hoverHighlight": "border-[#DD1C1D]",
 
+    "text_1": "text-[#ffffff]",
+    "text_2": "text-[#454A51]",
+    "text_3": "text-[#2f1a5e]",
+    "text_4": "text-black"
+  },
+  "cta_details": {
+    "cta_text": "Order Now",
+    "cta_text_2": "Order via whatsApp"
+  },
+  "text": {
+    "about_text": "Founded with a love for authentic flavors and unforgettable dining experiences, Starlight Restaurant brings together the warmth of traditional hospitality and modern culinary artistry. Every dish we serve is a celebration of fresh, locally sourced ingredients transformed into masterpieces by our expert chefs."
+  },
+  "image_links": {
+    "hero_img": "./assets/hero.jpg",
+    "menu_img": "./assets/menu.png",
+    "logo": "./assets/logo.png",
+    "favicon": "./assets/favicon.ico"
+  },
+  "socials": [
+    {
+      "id": "1",
+      "icLabel": "FaInstagram",
+      "name": "Instagram",
+      "link": "https://www.instagram.com/soirbistroke/",
+      "theme": "text-[#C628F6]"
     },
-    "cta_details":{
-        "cta_text":"Order Now",
-        "cta_text_2":"Order via whatsApp"
+    {
+      "id": "2",
+      "icLabel": "MdEmail",
+      "name": "Email Address",
+      "link": "https://maps.app.goo.gl/DU2U4ciXi4LUK8et6",
+      "theme": "text-[#168BE0]"
     },
-    "text":{
-        "about_text":"Welcome to Rakels Bakery, your neighborhood bakery conveniently located along Katani Road. We are passionate about creating fresh, delicious baked goods made with quality ingredients and care. From everyday bread and pastries to custom cakes for life's special moments, we strive to bring warmth, flavor, and smiles to every customer. Whether you're stopping by for a quick treat or celebrating a special occasion, Rakels Bakery is here to make every bite memorable."
+    {
+      "id": "3",
+      "icLabel": "FaWhatsapp",
+      "name": "WhatsApp",
+      "link": "https://wa.me/254741635330",
+      "theme": "text-[#168BE0]"
+    }
+  ],
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Rakel's Bakery",
+    "image": "https://www.rakelsbakery.co.ke/assets/hero.jpg",
+    "telephone": "+254700000000",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Katani Road",
+      "addressLocality": "Syokimau",
+      "addressRegion": "Nairobi",
+      "postalCode": "00500",
+      "addressCountry": "KE"
     },
-    "image_links":{
-        "hero_img":"./assets/hero.jpg",
-        "menu_img":"./assets/menu.png"
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -1.3683721162568117,
+      "longitude": 36.94006386984342
     },
-    "socials":[
-        {
-            "id":"1",
-            "icLabel":"FaInstagram",
-            "name":"Instagram",
-            "link":"https://www.instagram.com/rakels_bakery/",
-            "theme":"text-[#C628F6]"
-        },
-        {
-            "id":"2",
-            "icLabel":"SiGooglemaps",
-            "name":"Google maps",
-            "link": "https://www.google.com/maps/place/RAKEL'S+BAKERY/@-1.3686996,36.9399546,781m/data=!3m2!1e3!4b1!4m6!3m5!1s0x182f0d26e3454ef1:0xd55e9391f36d6530!8m2!3d-1.3686996!4d36.9399546!16s%2Fg%2F11s65_6ql2?hl=en-KE&entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D",
-            "theme":"text-[#168BE0]"
-        },
-        {
-            "id":"3",
-            "icLabel":"FaWhatsapp",
-            "name":"WhatsApp",
-            "link": "https://wa.me/...",
-            "theme":"text-[#168BE0]"
-        }
-    ]
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "06:00",
+        "closes": "22:00"
+      }
+    ],
+    "hasMenu": "https://www.rakelsbakery.co.ke/assets/menu.png",
+    "acceptsReservations": "True"
+  }
 }
